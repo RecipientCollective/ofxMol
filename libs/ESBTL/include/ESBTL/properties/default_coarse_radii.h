@@ -1,0 +1,46 @@
+dict["ALA"]= 0;
+dict["VAL"]= 1;
+dict["LEU"]= 2;
+dict["ILE"]= 3;
+dict["CYS"]= 4;
+dict["MET"]= 5; dict["MSE"]= 5;  
+dict["PRO"]= 6;
+dict["PHE"]= 7;
+dict["TYR"]= 8;
+dict["TRP"]= 9;
+dict["ASP"]=10;
+dict["ASN"]=11;
+dict["GLU"]=12;
+dict["GLN"]=13;
+dict["HIS"]=14;
+dict["SER"]=15;
+dict["THR"]=16;
+dict["ARG"]=17;
+dict["LYS"]=18;
+dict["GLY"]=19;
+
+vect.reserve(20);
+vect.push_back(Self(2.75 ));
+vect.push_back(Self(3.25 ));
+vect.push_back(Self(3.45 ));
+vect.push_back(Self(3.45 ));
+vect.push_back(Self(2.95 ));
+vect.push_back(Self(3.4  ));   
+vect.push_back(Self(3.15 ));
+vect.push_back(Self(3.675));
+vect.push_back(Self(3.7  ));
+vect.push_back(Self(3.85 ));
+vect.push_back(Self(3.15 ));
+vect.push_back(Self(3.2  ));
+vect.push_back(Self(3.35 ));
+vect.push_back(Self(3.35 ));
+vect.push_back(Self(3.4  ));
+vect.push_back(Self(2.85 ));
+vect.push_back(Self(3.15 ));
+vect.push_back(Self(3.675));
+vect.push_back(Self(3.45 ));
+vect.push_back(Self(2.5  ));
+
+index_of_default()=19;
+
+return 20;
